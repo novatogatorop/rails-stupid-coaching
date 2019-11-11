@@ -1,0 +1,14 @@
+<div class="container">
+<div class="row">
+<h1 class="intro">Stupid Coaching</h1>
+<div class="chat">
+<div><%= @question.capitalize %></div>
+<div>-You</div>
+</div>
+<div class="chat">
+<div><%= @answer %></div>
+<div>-Coach</div>
+</div>
+<%= link_to "Ask New Question", ask_path, class: "home-button" %>
+</div>
+</div>
